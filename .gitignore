@@ -1,0 +1,17 @@
+# dependências
+/node_modules
+
+# next
+/.next/
+/out/
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# misc
+.DS_Store
+.env*
