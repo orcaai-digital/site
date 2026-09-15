@@ -30,7 +30,9 @@ export function Footer() {
           </div>
         </div>
         <div className="legal">
-          &copy; {new Date().getFullYear()} OrçaAI &middot; CNPJ {CNPJ}
+          &copy; {new Date().getFullYear()} OrçaAI &middot; CNPJ {CNPJ} &middot;{' '}
+          <Link href="/termos">Termos de Uso</Link> &middot;{' '}
+          <Link href="/privacidade">Política de Privacidade</Link>
         </div>
       </div>
     </footer>
